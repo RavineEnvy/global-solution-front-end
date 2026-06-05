@@ -3,6 +3,10 @@ header{
     font: var(--text);
 }
 
+span{
+    font: bold var(--text);
+}
+
 header .container{
     display: flex;
     justify-content: space-between;
