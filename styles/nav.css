@@ -11,6 +11,10 @@ nav{
     max-width: 11.5rem;
 }
 
+.mudarTema{
+    max-width: 1.75rem;
+}
+
 nav ul{
     list-style: none;
     display: flex;
@@ -20,6 +24,7 @@ nav ul{
 }
 
 nav ul li:last-child img{
+    border-radius: 50%;
     width: 2.5rem;
     height: 2.5rem;
 }
