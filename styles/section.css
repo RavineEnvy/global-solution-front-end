@@ -11,10 +11,6 @@ section{
     min-width: 15rem;
     max-width: 1200px;
     background-color: var(--skeleton-color);
-    display: flex;
-    justify-content:space-between;
-    
-    gap: 0;
 
     margin: 0 35rem 0 35rem;
     border-radius: 25px;
