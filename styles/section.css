@@ -21,7 +21,7 @@ section{
 
 section:hover{
     gap: 2rem;
-    padding: 6rem;
+    padding: 7rem;
     border:solid 0.1rem var(--brand--color);
     margin: 0  5.3rem  0  5.3rem;
     font-size: var(--text-md);
@@ -38,6 +38,16 @@ section div{
 
 section p{
     font-size: var(--text-md);
+    min-width: 1rem
+}
+
+section ul{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    font-size: var(--text-md);
+    min-width: 1rem;
+    list-style: none;
 }
 
 
@@ -46,9 +56,9 @@ section img{
     border-radius: 5%;
     min-width: 7rem;
     max-width: 7rem;
-    transition: max-width 0.35s;
+    transition: max-width 0.25s;
 }
 
 section img:hover{
-    max-width: 20rem;
+    max-width: 25rem;
 }
